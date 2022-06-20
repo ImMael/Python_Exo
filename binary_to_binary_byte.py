@@ -1,5 +1,5 @@
 # add 0 to transform binary to binary byte
-def add_0_to_start_wordlist(wordlist):
+def binary_to_binary_byte(wordlist):
     res = []
     for word in wordlist:
         if len(word) < 8:
