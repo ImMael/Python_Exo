@@ -1,3 +1,6 @@
+from binary_to_binary_byte import binary_to_binary_byte
+
+
 def get_input():
     """
     Get input from user
@@ -43,5 +46,7 @@ while True:
         print(list_ascii)
         list_bin = convert_bin(list_ascii)
         print(list_bin)
+        list_bin_byte = binary_to_binary_byte(list_bin)
+        print(list_bin_byte)
 
 
