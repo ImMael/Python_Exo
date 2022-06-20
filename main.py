@@ -1,4 +1,5 @@
 from binary_to_binary_byte import binary_to_binary_byte
+from list_to_string import list_to_string
 
 
 def get_input():
@@ -48,5 +49,7 @@ while True:
         print(list_bin)
         list_bin_byte = binary_to_binary_byte(list_bin)
         print(list_bin_byte)
+        list_bin_byte_string = list_to_string(list_bin_byte)
+        print(list_bin_byte_string)
 
 
