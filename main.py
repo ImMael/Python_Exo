@@ -1,4 +1,5 @@
 from binary_to_binary_byte import binary_to_binary_byte
+from divide_string import divide_string
 from list_to_string import list_to_string
 
 
@@ -51,5 +52,7 @@ while True:
         print(list_bin_byte)
         list_bin_byte_string = list_to_string(list_bin_byte)
         print(list_bin_byte_string)
+        string_divide = divide_string(list_bin_byte_string)
+        print(string_divide)
 
 
