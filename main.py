@@ -15,6 +15,15 @@ def ascii_list(list_word):
         list_ascii.append(ord(i))
     return list_ascii
 
+def convert_bin(list_ascii):
+    list_bin = []
+    for i in list_ascii:
+        list_bin.append(bin(i).replace("0b",""))
+    return list_bin
+
+
+
+
 while True:
     # Main loop
     text = get_input()
@@ -23,4 +32,7 @@ while True:
         print(list_word)
         list_ascii = ascii_list(text)
         print(list_ascii)
+        list_bin = convert_bin(list_ascii)
+        print(list_bin)
+
 
